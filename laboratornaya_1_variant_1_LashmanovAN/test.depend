@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1476715169 source:c:\documents and settings\student\Мои документы\Я\test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<math.h>
+

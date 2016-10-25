@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1477127439 source:d:\codeblocks\chartable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1477319606 source:c:\documents and settings\student\Мои документы\Я\laboratornaya_3_variant_10_lashmanovan\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

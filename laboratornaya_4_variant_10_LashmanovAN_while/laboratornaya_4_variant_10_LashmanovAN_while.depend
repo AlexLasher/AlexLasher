@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1477327982 source:d:\lashmanovan\laboratornaya_4_variant_10_lashmanovan_while\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
