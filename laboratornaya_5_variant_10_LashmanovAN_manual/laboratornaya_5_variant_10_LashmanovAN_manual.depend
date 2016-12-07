@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1477828962 source:d:\codeblocks\lashmanovan\laboratornaya_5_variant_10_lashmanovan_manual\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<time.h>
-	<windows.h>
-
