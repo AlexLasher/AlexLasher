@@ -1,0 +1,191 @@
+# depslib dependency file v1.0
+1333000045 source:d:\work\7\herbivores.cpp
+	<iostream>
+	"herbivores.h"
+	"Rus.h"
+
+1332999830 d:\work\7\herbivores.h
+	<iostream>
+	"homeanimals.h"
+
+1334168258 d:\work\7\homeanimals.h
+	<iostream>
+
+1330496040 d:\work\7\rus.h
+
+1334168292 source:d:\work\7\homeanimals.cpp
+	<iostream>
+	"homeanimals.h"
+	"Rus.h"
+
+1332876288 source:d:\work\7\horse.cpp
+	<iostream>
+	"horse.h"
+	"Rus.h"
+
+1332999841 d:\work\7\horse.h
+	<iostream>
+	"herbivores.h"
+
+1330516290 source:d:\work\7\rus.cpp
+	"Rus.h"
+	<windows.h>
+
+1332878339 source:d:\work\7\caw.cpp
+	<iostream>
+	"caw.h"
+	"Rus.h"
+
+1332999850 d:\work\7\caw.h
+	<iostream>
+	"herbivores.h"
+
+1334136289 source:d:\work\7\main.cpp
+	"horse.h"
+	"caw.h"
+	"rus.h"
+	<list>
+
+1480943673 source:f:\tmp\ ! new_animals\herbivores.cpp
+	<iostream>
+	<iostream>
+	"herbivores.h"
+
+1480943339 f:\tmp\ ! new_animals\herbivores.h
+	"homeanimal.h"
+
+1334168258 f:\tmp\ ! new_animals\homeanimals.h
+	<iostream>
+
+1330492440 f:\tmp\ ! new_animals\rus.h
+
+1334168292 source:f:\tmp\ ! new_animals\homeanimals.cpp
+	<iostream>
+	"homeanimals.h"
+	"Rus.h"
+
+1480871215 source:f:\tmp\ ! new_animals\horse.cpp
+	<iostream>
+	"horse.h"
+
+1480871026 f:\tmp\ ! new_animals\horse.h
+	<iostream>
+	"herbivores.h"
+
+1330512690 source:f:\tmp\ ! new_animals\rus.cpp
+	"Rus.h"
+	<windows.h>
+
+1480943728 source:f:\tmp\ ! new_animals\caw.cpp
+	<iostream>
+	"caw.h"
+
+1480943616 f:\tmp\ ! new_animals\caw.h
+	<iostream>
+	"herbivores.h"
+
+1480871753 source:f:\tmp\ ! new_animals\homeanimal.cpp
+	<iostream>
+	"homeanimal.h"
+
+1480942889 f:\tmp\ ! new_animals\homeanimal.h
+	<iostream>
+	<fstream>
+
+1480943477 source:f:\tmp\ ! new_animals\main.cpp
+	"homeanimal.h"
+	"caw.h"
+	"horse.h"
+	"MyList.h"
+	<windows.h>
+
+1480512779 source:d:\Студенты\ ! new_animals\homeanimal.cpp
+	<iostream>
+	"homeanimal.h"
+
+1480513816 d:\Студенты\ ! new_animals\homeanimal.h
+	<iostream>
+
+1480514585 source:d:\Студенты\ ! new_animals\main.cpp
+	"caw.h"
+	<windows.h>
+
+1480513885 d:\Студенты\ ! new_animals\herbivores.h
+	"homeanimal.h"
+
+1480514985 source:d:\Студенты\ ! new_animals\herbivores.cpp
+	<iostream>
+	<iostream>
+	"herbivores.h"
+
+1480514574 source:d:\Студенты\ ! new_animals\caw.cpp
+	<iostream>
+	"caw.h"
+
+1480513365 d:\Студенты\ ! new_animals\caw.h
+	<iostream>
+	"herbivores.h"
+
+1480950500 source:d:\! progr\ ! new_animals\herbivores.cpp
+	<iostream>
+	<iostream>
+	"herbivores.h"
+
+1480952494 d:\! progr\ ! new_animals\herbivores.h
+	"homeanimal.h"
+
+1480952549 d:\! progr\ ! new_animals\homeanimal.h
+	<iostream>
+	<fstream>
+
+1480950500 source:d:\! progr\ ! new_animals\homeanimal.cpp
+	<iostream>
+	"homeanimal.h"
+
+1480952913 source:d:\! progr\ ! new_animals\main.cpp
+	"homeanimal.h"
+	"caw.h"
+	"horse.h"
+	"MyList.h"
+	<windows.h>
+
+1480950500 source:d:\! progr\ ! new_animals\caw.cpp
+	<iostream>
+	"caw.h"
+
+1480952494 d:\! progr\ ! new_animals\caw.h
+	<iostream>
+	"herbivores.h"
+
+1480949771 source:d:\! progr\ ! new_animals\horse.cpp
+	<iostream>
+	"horse.h"
+
+1480871028 d:\! progr\ ! new_animals\horse.h
+	<iostream>
+	"herbivores.h"
+
+1480943418 source:f:\tmp\ ! new_animals\mylist.cpp
+	"MyList.h"
+	<algorithm>
+	<fstream>
+	<windows.h>
+
+1480942598 f:\tmp\ ! new_animals\mylist.h
+	<list>
+	<algorithm>
+	<windows.h>
+	"homeanimal.h"
+
+1480953941 source:d:\! progr\ ! new_animals\mylist.cpp
+	"MyList.h"
+	<algorithm>
+	<fstream>
+	<windows.h>
+
+1480953897 d:\! progr\ ! new_animals\mylist.h
+	<list>
+	<algorithm>
+	<windows.h>
+	"homeanimal.h"
+

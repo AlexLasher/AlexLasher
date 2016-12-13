@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1481644970 source:d:\codeblocks\lashmanovan\kursovaya\main.cpp
+	<iostream>
+	<list>
+	<iterator>
+	<windows.h>
+	"Transport.h"
+	"Land.h"
+
+1481647590 d:\codeblocks\lashmanovan\kursovaya\include\transport.h
+	<iostream>
+
+1481647590 d:\codeblocks\lashmanovan\kursovaya\include\land.h
+	"Transport.h"
+	<iostream>
+
+1481471344 source:d:\codeblocks\lashmanovan\kursovaya\src\transport.cpp
+	"Transport.h"
+
+1481472688 source:d:\codeblocks\lashmanovan\kursovaya\src\land.cpp
+	"Land.h"
+	"Transport.h"
+
+1481647308 source:d:\codeblocks\lashmanovan\kursovaya\src\sea.cpp
+	"Sea.h"
+
+1481647996 d:\codeblocks\lashmanovan\kursovaya\include\sea.h
+	"Transport.h"
+
