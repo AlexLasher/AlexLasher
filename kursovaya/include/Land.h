@@ -2,25 +2,26 @@
 #define LAND_H
 #include "Transport.h"
 #include <iostream>
+
 using namespace std;
 
 class Land:public Transport{
     public:
         Land();
         ~Land();
-        void setWheels(int vol){
-			wheels=vol;
+        void setWheels(int val){
+			wheels=val;
 		}
 		int getWheels(){
 			return wheels;
 		}
 		void getParameters(){
-		    cout<<"Количество пассажиров: ";
-		    cout<<getPassengers()<<endl;
+		    Transport::getParameters();
 		    cout<<"Количество колес: ";
 		    cout<<getWheels()<<endl;
-		    cout<<"Марка производителя: ";
-		    cout<<getBrand()<<endl;
+		}
+		void introduce(){
+		    cout<<"Я - наземный транспорт!!!"<<endl;
 		}
     protected:
 

@@ -8,8 +8,8 @@ class Transport
     public:
         Transport();
         ~Transport();
-        void setPassengers(int vol){
-			passengers=vol;
+        void setPassengers(int val){
+			passengers=val;
 		}
 		int getPassengers(){
 			return passengers;
@@ -21,10 +21,14 @@ class Transport
 			return brand;
 		}
 		virtual void getParameters(){
+		    introduce();
 		    cout<<"Количество пассажиров: ";
 		    cout<<getPassengers()<<endl;
 		    cout<<"Марка производителя: ";
 		    cout<<getBrand()<<endl;
+		}
+		virtual void introduce(){
+		    cout<<"Я - транспорт!!!"<<endl;
 		}
     protected:
 
