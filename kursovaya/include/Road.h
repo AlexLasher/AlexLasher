@@ -21,7 +21,7 @@ class Road:public Land{
             cout<<getClearance()<<endl;
         }
         void introduce(){
-		    cout<<"Я - машина!!!"<<endl;
+		    cout<<"я - машина!!!"<<endl;
 		}
     protected:
     private:
@@ -29,11 +29,3 @@ class Road:public Land{
 };
 
 #endif // ROAD_H
-
-/*char c=65;
-for(i=c,k=0;k<5;k++,i++){
-    for(j=c;j!='F';j++){
-        printf("%c",j);
-    }
-    i++;
-}*/

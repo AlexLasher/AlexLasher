@@ -21,7 +21,7 @@ class Marine:public Sea{
             cout<<getDeckSqare()<<endl;
         }
         void introduce(){
-		    cout<<"Я - корабль!!!"<<endl;
+		    cout<<"я - корабль!!!"<<endl;
 		}
     protected:
     private:

@@ -21,7 +21,7 @@ class Land:public Transport{
 		    cout<<getWheels()<<endl;
 		}
 		void introduce(){
-		    cout<<"Я - наземный транспорт!!!"<<endl;
+		    cout<<"я - наземный транспорт!!!"<<endl;
 		}
     protected:
 

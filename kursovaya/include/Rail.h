@@ -21,7 +21,7 @@ class Rail:public Land{
 		    cout<<getRailCanvasWidth()<<endl;
 		}
 		void introduce(){
-		    cout<<"Я - поезд!!!"<<endl;
+		    cout<<"я - поезд!!!"<<endl;
 		}
     protected:
     private:
