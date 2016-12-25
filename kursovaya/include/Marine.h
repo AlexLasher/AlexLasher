@@ -8,21 +8,12 @@ using namespace std;
 class Marine:public Sea{
     public:
         Marine();
+        Marine(string);
         ~Marine();
-        void setDeckSqare(int val){
-            deckSqare=val;
-        }
-        int getDeckSqare(){
-            return deckSqare;
-        }
-        void getParameters(){
-            Sea::getParameters();
-            cout<<"Площадь палубы: ";
-            cout<<getDeckSqare()<<endl;
-        }
-        void introduce(){
-		    cout<<"я - корабль!!!"<<endl;
-		}
+        void setDeckSqare(int);
+        int getDeckSqare();
+        void getParameters();
+        void introduce();
     protected:
     private:
         int deckSqare;

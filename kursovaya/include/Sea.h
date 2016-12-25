@@ -2,27 +2,18 @@
 #define SEA_H
 #include "Transport.h"
 
+
+
 class Sea:public Transport{
     public:
         Sea();
-        virtual ~Sea();
-        void setDisplacement(int vol){
-			displacement=vol;
-		}
-		int getDisplacement(){
-			return displacement;
-		}
-        void getParameters(){
-            cout<<"Количество пассажиров: ";
-            cout<<getPassengers()<<endl;
-            cout<<"Объем водоизмещения: ";
-            cout<<getDisplacement()<<endl;
-            cout<<"Марка производителя: ";
-            cout<<getBrand()<<endl;
-        }
-
+        Sea(string);
+        ~Sea();
+        void setDisplacement(int);
+		int getDisplacement();
+        void getParameters();
+        void introduce();
     protected:
-
     private:
         int displacement;
 };

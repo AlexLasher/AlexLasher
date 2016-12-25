@@ -8,21 +8,12 @@ using namespace std;
 class Rail:public Land{
     public:
         Rail();
+        Rail(string);
         ~Rail();
-        void setRailCanvasWidth(int val){
-			railCanvasWidth=val;
-		}
-		int getRailCanvasWidth(){
-			return railCanvasWidth;
-		}
-		void getParameters(){
-		    Land::getParameters();
-		    cout<<"Ўирина рельсового полотна: ";
-		    cout<<getRailCanvasWidth()<<endl;
-		}
-		void introduce(){
-		    cout<<"€ - поезд!!!"<<endl;
-		}
+        void setRailCanvasWidth(int);
+		int getRailCanvasWidth();
+		void getParameters();
+		void introduce();
     protected:
     private:
         int railCanvasWidth;

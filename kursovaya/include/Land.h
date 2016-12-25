@@ -5,26 +5,17 @@
 
 using namespace std;
 
+
 class Land:public Transport{
     public:
         Land();
+        Land(string);
         ~Land();
-        void setWheels(int val){
-			wheels=val;
-		}
-		int getWheels(){
-			return wheels;
-		}
-		void getParameters(){
-		    Transport::getParameters();
-		    cout<<" оличество колес: ";
-		    cout<<getWheels()<<endl;
-		}
-		void introduce(){
-		    cout<<"€ - наземный транспорт!!!"<<endl;
-		}
+        void setWheels(int);
+		int getWheels();
+		void getParameters();
+		void introduce();
     protected:
-
     private:
         int wheels;
 };

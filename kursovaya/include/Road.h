@@ -8,21 +8,12 @@ using namespace std;
 class Road:public Land{
     public:
         Road();
+        Road(string);
         ~Road();
-        void setClearance(int val){
-            clearance=val;
-        }
-        int getClearance(){
-            return clearance;
-        }
-        void getParameters(){
-            Land::getParameters();
-            cout<<"Значение клиренса: ";
-            cout<<getClearance()<<endl;
-        }
-        void introduce(){
-		    cout<<"я - машина!!!"<<endl;
-		}
+        void setClearance(int);
+        int getClearance();
+        void getParameters();
+        void introduce();
     protected:
     private:
         int clearance;

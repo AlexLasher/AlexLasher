@@ -8,21 +8,12 @@ using namespace std;
 class Submarine:public Sea{
     public:
         Submarine();
+        Submarine(string);
         ~Submarine();
-        void setImmersionDepth(int val){
-            immersionDepth=val;
-        }
-        int getImmersionDepth(){
-            return immersionDepth;
-        }
-        void getParameters(){
-            Sea::getParameters();
-            cout<<"Глубина погружения: ";
-            cout<<getImmersionDepth()<<endl;
-        }
-        void introduce(){
-		    cout<<"Я - подводная лодка!!!"<<endl;
-		}
+        void setImmersionDepth(int);
+        int getImmersionDepth();
+        void getParameters();
+        void introduce();
     protected:
     private:
         int immersionDepth;

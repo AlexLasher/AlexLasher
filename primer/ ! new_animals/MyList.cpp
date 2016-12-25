@@ -14,6 +14,7 @@ void PrintList(MyList Animals)
     {
         p = (*pos);
         p->MySettings();
+        cout<<"-----------------------"<<endl;
         pos++;
     }
 }

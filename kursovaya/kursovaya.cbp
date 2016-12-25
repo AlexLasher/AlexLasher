@@ -36,6 +36,7 @@
 		</Compiler>
 		<Unit filename="include/Land.h" />
 		<Unit filename="include/Marine.h" />
+		<Unit filename="include/MyList.h" />
 		<Unit filename="include/Rail.h" />
 		<Unit filename="include/Road.h" />
 		<Unit filename="include/Sea.h" />
@@ -44,6 +45,7 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Land.cpp" />
 		<Unit filename="src/Marine.cpp" />
+		<Unit filename="src/MyList.cpp" />
 		<Unit filename="src/Rail.cpp" />
 		<Unit filename="src/Road.cpp" />
 		<Unit filename="src/Sea.cpp" />

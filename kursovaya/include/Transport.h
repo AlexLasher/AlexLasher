@@ -3,35 +3,31 @@
 #include <iostream>
 using namespace std;
 
-class Transport
-{
+
+class Transport{
     public:
         Transport();
+        Transport(string);
         ~Transport();
-        void setPassengers(int val){
-			passengers=val;
-		}
-		int getPassengers(){
-			return passengers;
-		}
-		void setBrand(string s){
-			brand=s;
-		}
-		string getBrand(){
-			return brand;
-		}
-		virtual void getParameters(){
-		    introduce();
-		    cout<<"Количество пассажиров: ";
-		    cout<<getPassengers()<<endl;
-		    cout<<"Марка производителя: ";
-		    cout<<getBrand()<<endl;
-		}
-		virtual void introduce(){
-		    cout<<"Я - транспорт!!!"<<endl;
-		}
+        void setPassengers(int);
+        int getPassengers();
+        void setBrand(string);
+        string getBrand();
+        virtual void getParameters();
+        virtual void introduce();
+        virtual void setWheels(int s){}
+        virtual int getWheels(){return -1;}
+        virtual void setDisplacement(int s){}
+		virtual int getDisplacement(){return -1;}
+		virtual void setRailCanvasWidth(int s){}
+		virtual int getRailCanvasWidth(){return -1;}
+		virtual void setClearance(int s){}
+        virtual int getClearance(){return -1;}
+        virtual void setDeckSqare(int s){}
+        virtual int getDeckSqare(){return -1;}
+        virtual void setImmersionDepth(int s){}
+        virtual int getImmersionDepth(){return -1;}
     protected:
-
     private:
         int passengers;
         string brand;
