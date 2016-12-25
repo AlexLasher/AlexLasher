@@ -9,51 +9,46 @@
 #include "Submarine.h"
 #include "Rail.h"
 #include "Road.h"
+#include "MyList.h"
+
 using namespace std;
 
 int main() {
-	list<Transport*> myList;
+	MyList myList;
     system("chcp 1251>NUL");
-    Transport *tr;  Land *ln; Sea *s; Road *rd; Rail *rl; Marine *m; Submarine *sm;
-        tr = new Transport();
-        ln = new Land();
-        s = new Sea();
-        rd = new Road();
-        rl = new Rail();
-        m = new Marine();
-        sm = new Submarine();
-
+    Transport *tr;
+        tr = new Transport("Транспорт обыкновенный");
         tr->setPassengers(1);
-        ln->setPassengers(100);
-        ln->setWheels(10);
-        s->setPassengers(50);
-        s->setDisplacement(10000);
-        rd->setClearance(150);
-        rd->setPassengers(10);
-        rd->setWheels(6);
-        rl->setPassengers(100);
-        rl->setRailCanvasWidth(150);
-        rl->setWheels(10);
-        m->setPassengers(400);
-        m->setDeckSqare(600);
-        m->setDisplacement(10000);
-        sm->setDisplacement(50000);
-        sm->setImmersionDepth(1500);
-        sm->setPassengers(50);
         myList.push_back(tr);
-        myList.push_back(ln);
-        myList.push_back(s);
-        myList.push_back(sm);
-        myList.push_back(m);
-        myList.push_back(rl);
-        myList.push_back(rd);
+        tr = new Land("Наземный транспорт");
+        tr->setPassengers(100);
+        tr->setWheels(10);
+        myList.push_back(tr);
+        tr = new Sea("Морской транспорт");
+        tr->setPassengers(50);
+        tr->setDisplacement(10000);
+        myList.push_back(tr);
+        tr = new Road("Машина");
+        tr->setClearance(150);
+        tr->setPassengers(10);
+        tr->setWheels(6);
+        myList.push_back(tr);
+        tr = new Rail("Поезд");
+        tr->setPassengers(100);
+        tr->setRailCanvasWidth(150);
+        tr->setWheels(10);
+        myList.push_back(tr);
+        tr = new Marine("Корабль");
+        tr->setPassengers(400);
+        tr->setDeckSqare(600);
+        tr->setDisplacement(10000);
+        myList.push_back(tr);
+        tr = new Submarine("Подводная лодка");
+        tr->setDisplacement(50000);
+        tr->setImmersionDepth(1500);
+        tr->setPassengers(50);
+        myList.push_back(tr);
 
-	list<Transport*>::iterator it = myList.begin();
-	while(it!=myList.end()){
-        tr=*it;
-        tr->getParameters();
-        cout<<"-----------------------"<<endl;
-        it++;
-	}
+        cout << myList;
 	return 0;
 }

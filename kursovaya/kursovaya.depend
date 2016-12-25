@@ -1,30 +1,36 @@
 # depslib dependency file v1.0
-1481644970 source:d:\codeblocks\lashmanovan\kursovaya\main.cpp
+1482667036 source:d:\codeblocks\lashmanovan\kursovaya\main.cpp
 	<iostream>
 	<list>
 	<iterator>
 	<windows.h>
 	"Transport.h"
 	"Land.h"
+	"Sea.h"
+	"Marine.h"
+	"Submarine.h"
+	"Rail.h"
+	"Road.h"
+	"MyList.h"
 
-1481647590 d:\codeblocks\lashmanovan\kursovaya\include\transport.h
+1482667243 d:\codeblocks\lashmanovan\kursovaya\include\transport.h
 	<iostream>
 
-1481647590 d:\codeblocks\lashmanovan\kursovaya\include\land.h
+1482662254 d:\codeblocks\lashmanovan\kursovaya\include\land.h
 	"Transport.h"
 	<iostream>
 
-1481471344 source:d:\codeblocks\lashmanovan\kursovaya\src\transport.cpp
+1482665496 source:d:\codeblocks\lashmanovan\kursovaya\src\transport.cpp
+	<iostream>
 	"Transport.h"
 
-1481472688 source:d:\codeblocks\lashmanovan\kursovaya\src\land.cpp
+1482662315 source:d:\codeblocks\lashmanovan\kursovaya\src\land.cpp
 	"Land.h"
-	"Transport.h"
 
-1481647308 source:d:\codeblocks\lashmanovan\kursovaya\src\sea.cpp
+1482662639 source:d:\codeblocks\lashmanovan\kursovaya\src\sea.cpp
 	"Sea.h"
 
-1481647996 d:\codeblocks\lashmanovan\kursovaya\include\sea.h
+1482662639 d:\codeblocks\lashmanovan\kursovaya\include\sea.h
 	"Transport.h"
 
 1481725574 source:d:\lashmanovan\alexlasher\kursovaya\src\land.cpp
@@ -93,4 +99,61 @@
 1481732986 d:\lashmanovan\alexlasher\kursovaya\marine.h
 	"Sea.h"
 	<iostream>
+
+1482227341 d:\codeblocks\lashmanovan\kursovaya\sea.h
+	"Transport.h"
+	<iostream>
+
+1482227304 d:\codeblocks\lashmanovan\kursovaya\marine.h
+	"Sea.h"
+	<iostream>
+
+1482227343 d:\codeblocks\lashmanovan\kursovaya\submarine.h
+	"Sea.h"
+	<iostream>
+
+1482227337 d:\codeblocks\lashmanovan\kursovaya\rail.h
+	"Land.h"
+	<iostream>
+
+1482227339 d:\codeblocks\lashmanovan\kursovaya\road.h
+	"Land.h"
+	<iostream>
+
+1482665422 source:d:\codeblocks\lashmanovan\kursovaya\src\marine.cpp
+	"Marine.h"
+
+1482665422 d:\codeblocks\lashmanovan\kursovaya\include\marine.h
+	"Sea.h"
+	<iostream>
+
+1482665422 source:d:\codeblocks\lashmanovan\kursovaya\src\rail.cpp
+	"Rail.h"
+
+1482665422 d:\codeblocks\lashmanovan\kursovaya\include\rail.h
+	"Land.h"
+	<iostream>
+
+1482665422 source:d:\codeblocks\lashmanovan\kursovaya\src\road.cpp
+	"Road.h"
+
+1482665422 d:\codeblocks\lashmanovan\kursovaya\include\road.h
+	"Land.h"
+	<iostream>
+
+1482665422 source:d:\codeblocks\lashmanovan\kursovaya\src\submarine.cpp
+	"Submarine.h"
+
+1482665422 d:\codeblocks\lashmanovan\kursovaya\include\submarine.h
+	"Sea.h"
+	<iostream>
+
+1482661999 d:\codeblocks\lashmanovan\kursovaya\include\mylist.h
+	"Transport.h"
+	<list>
+	<iterator>
+
+1482247366 source:d:\codeblocks\lashmanovan\kursovaya\src\mylist.cpp
+	"MyList.h"
+	"Transport.h"
 
