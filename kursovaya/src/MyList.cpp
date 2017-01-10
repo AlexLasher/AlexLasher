@@ -15,4 +15,4 @@ void PrintList(MyList lst){
 ostream & operator << (ostream & out, MyList lst){
     PrintList(lst);
     return out;
-    }
+}

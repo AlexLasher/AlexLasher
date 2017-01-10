@@ -27,7 +27,6 @@ int findEnd(uchar*);
 int main()
 {
     uchar m[5][100], n[5][100], n1[5][100], n2[5][100];
-    int i;
     toString(n1,5);
     toString(n2,5);
     system("chcp 1251 > NUL");          info(1);
@@ -79,9 +78,9 @@ void info(int i){
             break;
         case 4: printf("\nВыбранные слова из второй части кодовой страницы\n\n");
             break;
-        case 5: printf("\nОтсортированные символы слов методом прямого включения\n\из первой части кодовой страницы\n\n");
+        case 5: printf("\nОтсортированные символы слов методом прямого включения\nиз первой части кодовой страницы\n\n");
             break;
-        case 6: printf("\nОтсортированные символы слов методом прямого включения\n\из второй части кодовой страницы\n\n");
+        case 6: printf("\nОтсортированные символы слов методом прямого включения\nиз второй части кодовой страницы\n\n");
             break;
         case 7: printf("\nЗаписываем в файл\n");
             break;
@@ -130,20 +129,7 @@ void findWord2(uchar m[][100],uchar n1[][100],uchar n2[][100]){
     int i,letter=0;
     uchar word[50];
     for(i=0;i<5;i++){
-        findWord(m[i],*word,n1,n2,letter,i);
-/*        for(j=0;;j++){
-            if(m[i][j]!='\0'&&m[i][j]!=' '){
-                word[letter]=m[i][j];
-                letter++;
-            } else{
-                word[letter]='\0';
-                letter=0;
-                differ(n1,n2,word,i);
-            }
-            if(m[i][j]=='\0'){
-                break;
-            }
-        }*/
+        findWord(m[i],word,n1,n2,letter,i);
     }
 }
 void findWord(uchar *m, uchar *word, uchar n1[][100],uchar n2[][100], int letter,int i){
@@ -218,11 +204,6 @@ int find(uchar *massiv,int begin,int n, uchar x){
     }
     return k;
 }
-void SortInsert (uchar m[], int n){
-    int i;
-    for (i=1; i<n; i++)
-    Insert (m, i);
-}
 void Insert (uchar m[], int n){
     int i = n;
     while ((i>0)&&(m[i]<m[i-1])){
@@ -230,6 +211,12 @@ void Insert (uchar m[], int n){
         i--;
     }
 }
+void SortInsert (uchar m[], int n){
+    int i;
+    for (i=1; i<n; i++)
+    Insert (m, i);
+}
+
 void Bubble (uchar m[], int n, int Up){
     int i;
     for (i = n-1; i>Up; i--)

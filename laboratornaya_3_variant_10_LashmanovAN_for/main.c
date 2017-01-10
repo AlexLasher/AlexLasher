@@ -23,8 +23,7 @@ DCBABCD\n\
     char a = 65;
     int i,j,k,l=3;
     for(i=0;i<7;i++){
-        k=3;
-        for(j=0;j<7;j++){
+        for(j=0,k=3;j<7;j++){
             if(i<=3){
                 if(k-i<=0){
                     printf("%2c", a+k);

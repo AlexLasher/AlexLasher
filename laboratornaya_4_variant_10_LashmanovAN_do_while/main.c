@@ -16,11 +16,9 @@ int main()
         if(abs(stringNum)!=0){
             Part(' ',abs(stringNum),0);
         }
-        if(-abs(stringNum)+4!=0){
-            Part(-abs(stringNum)+3+'A',-abs(stringNum)+4,-1);
-        }
-        if(-abs(stringNum)+3!=0){
-            Part('B',-abs(stringNum)+3,1);
+        Part('D'-abs(stringNum),4-abs(stringNum),-1);
+        if(abs(stringNum)!=3){
+            Part('B',3-abs(stringNum),1);
         }
         printf("\n");
         stringNum++;
@@ -48,8 +46,7 @@ DCBABCD\n\
 начало программы при помощи циклов do while:\n\n");
 }
 void Part(char b, char c, char s){
-    char i;
-    i=1;
+    char i=1;
     do{
         printf("%2c",b);
         i++;

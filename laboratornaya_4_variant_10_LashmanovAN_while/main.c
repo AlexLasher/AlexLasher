@@ -14,8 +14,8 @@ int main()
     int stringNum=-3;
     while(stringNum<4){
         Part(' ',abs(stringNum),0);
-        Part(-abs(stringNum)+3+'A',-abs(stringNum)+4,-1);
-        Part('B',-abs(stringNum)+3,1);
+        Part('D'-abs(stringNum),4-abs(stringNum),-1);
+        Part('B',3-abs(stringNum),1);
         printf("\n");
         stringNum++;
     }
